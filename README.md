@@ -31,7 +31,7 @@ git remote add origin https://github.com/my-org/my-org-github-control.git
 git push -u origin main
 ```
 
-Enter AWS and GitHub secrets in https://github.com/<my-gh-user>/<my-org>-github-control/settings/secrets/actions:
+Enter AWS and GitHub secrets in `https://github.com/<my-gh-user>/<my-org>-github-control/settings/secrets/actions`:
 
 * `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_DEFAULT_REGION`
 * `GH_TOKEN`
