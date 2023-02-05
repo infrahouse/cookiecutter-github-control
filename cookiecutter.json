@@ -1,0 +1,11 @@
+{
+  "org_name": "InfraHouse",
+  "org_description": "Cloud infrastructure professional services.",
+  "org_slug": "{{ cookiecutter.org_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "email": "devnull@infrahouse.com",
+  "website": "https://infrahouse.com",
+  "_copy_without_render": [
+    "*/terraform-CI.yml",
+    "*/terraform-CD.yml"
+  ]
+}
